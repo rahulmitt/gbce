@@ -5,13 +5,13 @@ GBCE is a spring-boot application that let's the users communicate using REST en
 Assumptions:
 1. This application will not create actual trades; just record incoming trades with timestamp, quantity, buy/sell indicator and price.
 
-2. Since, there is a requirement to capture the buy/sell indicator, it is assumed that both long and short sides will be present in the system.
+2. Since, there is a requirement to capture the trades with buy/sell indicator, it is assumed that both long and short side of trades will be present in the system.
 
 3. In order to compute Volume weighted stock price, it will consider only buy side (longs) of trades.
 
-4. Any trades that are for securites that are not listed in the exchange will be rejected.
+4. Any trades that are for securites not listed in the exchange will be rejected.
 
-5. If values like last-dividend, fixed-dividend ot par-value is not present, they is assumed to be 0.
+5. If values like last-dividend, fixed-dividend or par-value is not present, they are assumed to be 0.
 
 6. The sample data (Reference Data) will be loaded in memory during the bootup time. Although there are APIs to add/remove stocks into/from the exchange, the REST endpoints are not exposed just yet.
 
