@@ -15,7 +15,7 @@ Assumptions:
 
 6. The sample data (Reference Data) will be loaded in memory during the bootup time. Although there are APIs to add/remove stocks into/from the exchange, the REST endpoints are not exposed just yet.
 
-Below are some sample REST endpoints:
+```Below are some sample REST endpoints:
 http://localhost:8080/stock-exchange/stock/list
 http://localhost:8080/stock-exchange/stock/POP/list
 
@@ -28,4 +28,4 @@ http://localhost:8080/stock-exchange/trade/get
 
 http://localhost:8080/stock-exchange/trade/vwap/POP
 http://localhost:8080/stock-exchange/trade/index
-
+```
