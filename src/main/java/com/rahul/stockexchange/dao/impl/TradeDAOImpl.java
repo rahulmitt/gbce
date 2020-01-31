@@ -16,7 +16,7 @@ import java.util.Map;
 public class TradeDAOImpl implements TradeDAO {
     Logger logger = LoggerFactory.getLogger(TradeDAOImpl.class);
 
-    private static Map<String, List<Trade>> repository;
+    private Map<String, List<Trade>> repository;
 
     public TradeDAOImpl() {
         repository = new HashMap<>();

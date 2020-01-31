@@ -14,7 +14,7 @@ import java.util.Map;
 public class ReferenceDataDAOImpl implements ReferenceDataDAO {
     private static final Logger logger = LoggerFactory.getLogger(ReferenceDataDAOImpl.class);
 
-    private static Map<String, Stock> repository;
+    private Map<String, Stock> repository;
 
     public ReferenceDataDAOImpl() {
         repository = new HashMap<>();
