@@ -1,6 +1,9 @@
 # gbce
 
-GBCE is a spring-boot application that let's the users communicate using REST endpoints. We have chosen REST based interface to be futuristic and enable easy integration with other systems later on. This implementation has a 63% unit test coverage for methods.
+GBCE is a spring-boot application that let's the users communicate using REST endpoints. 
+We have chosen REST based interface to be futuristic and enable easy integration with other systems later on.
+The domain objects Stock and Trade are implemented using Builder design pattern. 
+This implementation has a 63% unit test coverage for methods.
 
 Assumptions:
 1. This application will not create actual trades; just record incoming trades with timestamp, quantity, buy/sell indicator and price.
