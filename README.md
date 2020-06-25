@@ -1,6 +1,6 @@
 # gbce
 
-GBCE is a spring-boot application that let's the users communicate using REST endpoints. 
+GBCE is a sample spring-boot application that let's the users communicate using REST endpoints. 
 We have chosen REST based interface to be futuristic and enable easy integration with other systems later on.
 The domain objects Stock and Trade are implemented using Builder design pattern. 
 This codebase has 63% unit test coverage for methods.
